@@ -8,7 +8,7 @@ public class Main {
     private static Logger logger = LoggerFactory.getLogger(Main.class);
 
     static {
-        new PropertyWorker().initAnnotation();
+        new PropertyWorker().initAnnotation("config.properties");
     }
 
     public static void main(String[] args) {
